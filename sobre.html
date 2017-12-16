@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<title>Luiz Carlos C. Rodrigues</title>
+	</head>
+	<body>
+		<section>
+
+			<!-- Barra de navegação -->
+			<nav class="topnav" id="myTopnav">
+			  <a href="index.html">Home</a>
+			  <a href="fatec.html">A Fatec</a>
+			  <a href="sobre.html" id="active">Sobre</a>
+			  <a href="contato.html">Contato</a>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+			</nav>
+		</section>
+		<section>
+			<article>
+			<!--Sobre mim PT-BR-->
+			<h1 id="sobre"> Sobre </h1>
+			<p class="sobre"> Meu nome é Luiz Carlos Cavalcante Rodrigues e tenho 20 anos, nasci no dia 05 de
+			junho de 1997. Moro em Jales, cidade de nascimento, interior de SP, Brasil.</p>
+			<p class="sobre">Atualmente trabalho no comércio, no ramo de joias. Estudo Sistemas para Internet
+			na Faculdade de Tecnologia de Jales (FATEC).</p>
+			<p class="sobre">Gosto da área de TI, mas também gosto de fotografias e manipulação de imagens.</p>
+			<p class="sobre">Já fiz um curso de língua Inglesa no C.E.L e um de Técnicas de Vendas na própria Fatec.</p> 
+			<!--Sobre mim EN-->
+			<h1 id="sobre"> About me </h1>
+			<p class="sobre">My name is Luiz Carlos Cavalcante Rodrigues and I'm 20 years old, I was born on June 5, 1997.
+			I live in Jales, birth city, interior of SP, Brazil.</p>
+			<p class="sobre">Currently working in the trade, in the jewelry business. Study Systems for Internet at the Faculty
+			of Technology of Jales (FATEC).</p>
+			<p class="sobre">I like the IT area, but I also like photos and manipulation of images.</p>
+			<p class="sobre">I have already taken an English language course in C.E.L and one of Sales Techniques in Fatec itself.</p>
+			</article>
+		</section>
+		<section>
+			<footer>Todos direitos reservados &copy | Luiz Carlos C. Rodrigues 2017</footer>
+		</section>
+		<!-- Decide se a navegação sera reduzida ou completa -->
+		<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+		</script>
+		</body>
+</html>
