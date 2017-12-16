@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<title>Luiz Carlos C. Rodrigues</title>
+	</head>
+	<body>
+		<section>
+
+			<!-- Barra de navegação -->
+			<nav class="topnav" id="myTopnav">
+			  <a href="index.html" id="active">Home</a>
+			  <a href="fatec.html">A Fatec</a>
+			  <a href="sobre.html">Sobre</a>
+			  <a href="contato.html">Contato</a>
+			  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+			</nav>
+		</section>
+		<section>
+			<header class="header">
+			  <h1>Projeto de PPSI-II</h1>
+			  <p>Projeto desenvolvido para a matéria de Padrões de Projetos para Sítios Internet II, tem como objetivo mostrar as habilidades de construção de um site responsivo.
+			  </p>
+			</header>
+			<section>				
+			 <!-- Galeria de Imagens com gride -->
+			 	<!-- Linhas -->
+				<div class="row">
+					<!-- Coluna 1 --> 
+					<div class="column">
+					    <img src="imagens/galeria/11.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/21.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/31.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/41.jpg" class="galeria retrato">
+			  		</div>
+			  		<!-- Coluna 2 -->
+			  		<div class="column">
+					    <img src="imagens/galeria/12.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/22.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/32.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/42.jpg" class="galeria" id="paisagem">
+			  		</div>
+			  		<!-- Coluna 3 -->
+			  		<div class="column">
+					    <img src="imagens/galeria/13.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/23.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/33.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/43.jpg" class="galeria retrato">
+			  		</div>
+			  		<!-- Coluna 4 -->
+			  		<div class="column">
+					    <img src="imagens/galeria/14.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/24.jpg" class="galeria paisagem">
+					    <img src="imagens/galeria/34.jpg" class="galeria retrato">
+					    <img src="imagens/galeria/44.jpg" class="galeria paisagem">
+			  		</div>
+			  	</div>	
+			</section>
+		</section>
+		<section>
+			<footer>Todos direitos reservados &copy | Luiz Carlos C. Rodrigues 2017</footer>
+		</section>
+		<!-- Decide se a navegação sera reduzida ou completa -->
+		<script>
+		function myFunction() {
+		    var x = document.getElementById("myTopnav");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+		</script>
+		</body>
+</html>
